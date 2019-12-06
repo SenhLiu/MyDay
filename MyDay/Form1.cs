@@ -73,7 +73,6 @@ namespace MyDay
         (y + y/4 - y/100 + y/400 + t[m-1] + d) % 7 is reminder of the number of days from Jan 0  1AD to the given date which will be the day (0=Sunday,6=Saturday).
 
         Description credits: Sai Teja Pratap (quora.com/How-does-Tomohiko-Sakamotos-Algorithm-work).
-        El nota es un crack vale? 
         */
         static int DayOfWeek(int y, int m, int d)
         {
