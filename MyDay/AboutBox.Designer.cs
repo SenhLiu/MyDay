@@ -72,7 +72,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(166, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Copyright (C) Senh Liu 2017-2018";
+            this.label3.Text = "Copyright (C) Senh Liu 2017-2019";
             // 
             // btnOK
             // 
