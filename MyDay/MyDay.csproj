@@ -126,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\greatwall.jpg" />
     <None Include="Resources\logo1.jpg" />
     <None Include="Resources\Copy.png" />
   </ItemGroup>

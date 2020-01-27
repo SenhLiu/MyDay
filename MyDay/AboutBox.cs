@@ -16,5 +16,15 @@ namespace MyDay
         {
             InitializeComponent();
         }
+
+        private void AboutBox_Activated(object sender, EventArgs e)
+        {
+            DateTime now = DateTime.Now;
+            // display an easter egg on this special day
+            if (now.Month == 2 && now.Day == 7)
+                pictureBox1.Image = Properties.Resources.greatwall; // me at the great wall :-)
+            else
+                pictureBox1.Image = Properties.Resources.logo1; 
+        }
     }
 }

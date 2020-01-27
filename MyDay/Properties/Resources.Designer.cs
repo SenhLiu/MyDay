@@ -67,6 +67,13 @@ namespace MyDay.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap greatwall {
+            get {
+                object obj = ResourceManager.GetObject("greatwall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap logo1 {
             get {
                 object obj = ResourceManager.GetObject("logo1", resourceCulture);
